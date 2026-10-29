@@ -1,0 +1,45 @@
+/* =====================================================================
+   Sales Partner Auto · Peugeot — Design tokens (Sales Partner Dealer WebKit)
+   Peugeot C&I as seen on peugeot.ro (2026): black & white, wide uppercase
+   headings, square black buttons, blue links and active states, outline pill
+   energy filters. The proprietary "Peugeot New" typeface is replaced by
+   Archivo (OFL) set at expanded width for display text.
+   Each brand mini-site swaps this file only (phase 2: Citroën, Omoda & Jaecoo).
+   ===================================================================== */
+:root {
+  --bg:        #FFFFFF;
+  --bg-2:      #F3F3F3;   /* light grey surfaces */
+  --bg-3:      #E7E7E7;
+  --ink:       #000000;   /* primary: black buttons, active items */
+  --ink-2:     #1A1A1A;
+  --text:      #1A1A1A;
+  --mute:      #5C5C5C;
+  --line:      #D6D6D6;
+  --night:     #000000;   /* footer / dark bands */
+  --night-2:   #161616;
+  --on-night:  #FFFFFF;
+  --sky:       #0057B8;   /* Peugeot link blue */
+  --link:      #0057B8;
+  --promo:     #C8102E;
+  --accent:    var(--sky);
+  --ok:        #1E7B34;
+  --warn:      #B25400;
+  --err:       #C8102E;
+
+  --f-display: 'Archivo', 'Arial Black', Arial, sans-serif;
+  --f-body:    'Archivo', 'Segoe UI', Roboto, Arial, sans-serif;
+  --f-mono:    'Archivo', 'Segoe UI', Roboto, Arial, sans-serif;
+  --wide:      125%;      /* font-stretch for display text */
+
+  --fs-xs: .75rem; --fs-sm: .875rem; --fs-md: 1rem; --fs-lg: 1.125rem;
+  --fs-xl: clamp(1.2rem, 1.1rem + .4vw, 1.4rem);
+  --fs-h3: clamp(1.2rem, 1.05rem + .7vw, 1.6rem);
+  --fs-h2: clamp(1.55rem, 1.2rem + 1.5vw, 2.3rem);
+  --fs-h1: clamp(1.75rem, 1.3rem + 2vw, 2.8rem);
+
+  --r-sm: 0; --r-md: 0; --r-lg: 0; --r-pill: 999px;
+  --container: 1320px; --header-h: 72px;
+  --shadow: 0 1px 2px rgba(0,0,0,.05), 0 14px 34px -16px rgba(0,0,0,.25);
+  --ease: cubic-bezier(.2,.7,.2,1);
+  color-scheme: light;
+}
